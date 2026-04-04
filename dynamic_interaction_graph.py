@@ -21,7 +21,7 @@ FS = 10  # Hz
 WINDOW_SEC = 10
 WINDOW_SAMPLES = WINDOW_SEC * FS
 STEP_SEC = 5
-STEP_SAMPLES = STEP_SEC * FS
+STEP_SAMPLES  = STEP_SEC * FS
 
 def build_dynamic_graph(data):
     """
