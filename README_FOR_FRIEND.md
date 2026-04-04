@@ -106,16 +106,12 @@ Your friend can extend this to:
 
 ## Data Quality Notes
 
-- ✅ All files have >200 rows (minimum for TDA)
-- ✅ No NaN values in extracted data
-- ✅ 28/29 subjects have usable data (0005-BQAB Stress is small)
-- ⚠️ Original eye-tracking had 99.9% missing data (excluded)
+-  All files have >200 rows (minimum for TDA)
+- No NaN values in extracted data
+- 28/29 subjects have usable data (0005-BQAB Stress is small)
+-  Original eye-tracking had 99.9% missing data (excluded)
 
-## Contact
 
-Data processed by: [Your name]
-Date: April 4, 2026
-Pipeline version: 1.0 (Phase 1 complete)
 
 For questions about the preprocessing, see the original extraction script.
 For questions about TDA methodology, see `fixed_synchrony_analysis.py` comments.
