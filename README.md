@@ -102,7 +102,6 @@ Your friend can extend this to:
 | `fixed_synchrony_analysis.py` | Main analysis pipeline |
 | `fixed_synchrony_results.csv` | Statistical results (Task vs Stress) |
 | `extract_task_periods.py` | Data extraction script |
-| `synchrony_analysis_summary.txt` | Text summary of findings |
 
 ## Data Quality Notes
 
