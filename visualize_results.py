@@ -64,7 +64,7 @@ def plot_stress_results(csv_path):
         plt.tight_layout()
         output_name = "stress_topology_results.png"
         plt.savefig(output_name, dpi=300)
-        print(f"✅ SUCCESS: Plots saved to {output_name}")
+        print(f" SUCCESS: Plots saved to {output_name}")
 
     except Exception as e:
         print(f"failed: {e}")
