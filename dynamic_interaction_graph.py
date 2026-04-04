@@ -218,7 +218,7 @@ def main():
     if all_results:
         df = pd.DataFrame(all_results)
         df.to_csv(RESULTS_FILE, index=False)
-        print(f"\n✅ Results saved to: {RESULTS_FILE}")
+        print(f"\n Results saved to: {RESULTS_FILE}")
 
         # Compare Task vs Stress
         task_data = df[df['condition'] == 'Task']
@@ -287,7 +287,7 @@ def main():
         print("=" * 70)
 
         if significant:
-            print(f"\n✅ FOUND {len(significant)} SIGNIFICANT DIFFERENCES:")
+            print(f"\nFOUND {len(significant)} SIGNIFICANT DIFFERENCES:")
             for finding in significant:
                 direction = "higher" if finding['stress'] > finding['task'] else "lower"
                 print(f"\n  • {finding['metric']}:")
@@ -295,12 +295,12 @@ def main():
                 print(f"    Stress: {finding['stress']:.3f} ({direction})")
                 print(f"    p = {finding['p']:.4f}")
 
-            print("\n  🎯 Step 1 Complete:")
+            print("\n   Step 1 Complete:")
             print("     - Fused 3 modalities into ONE dynamic graph")
             print("     - Graph topology differs between Task and Stress")
             print("     - Fragmentation signature captured")
         else:
-            print("\n⚠️ No significant differences found")
+            print("\n No significant differences found")
             print("   Consider adjusting window sizes or trying different graph metrics")
 
         # Save summary
