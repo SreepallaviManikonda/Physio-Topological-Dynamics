@@ -61,4 +61,4 @@ if results:
     if p_val < 0.05: print("VERDICT: SUCCESS. The loop structure changed significantly!")
     else: print("VERDICT: TRENDING. The states are different, but variance is high.")
 else:
-    print("❌ Error: No subjects found with two or more active flags.")
+    print("Error: No subjects found with two or more active flags.")
