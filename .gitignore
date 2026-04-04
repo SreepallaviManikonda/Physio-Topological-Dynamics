@@ -1,0 +1,6 @@
+*.hdf5
+*.zip
+*.npy
+cleaned_nodes/
+extracted_tasks/
+.DS_Store

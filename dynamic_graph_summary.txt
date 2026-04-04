@@ -1,0 +1,13 @@
+DYNAMIC INTERACTION GRAPH ANALYSIS
+======================================================================
+
+Step 1: Multimodal Data Fusion into Dynamic Graph
+
+Subjects: 28 with both conditions
+Nodes: 3 (EEG, HRV, EDA)
+Edges: 3 (time-varying correlations)
+
+SIGNIFICANT FINDINGS:
+Fragmentation: 0.926 -> 0.949 (p=0.0000)
+Clustering: 0.133 -> 0.100 (p=0.0000)
+Fragmentation Shifts: 0.286 -> 0.000 (p=0.0087)
