@@ -199,7 +199,7 @@ def main():
     all_results = []
 
     # Process Task
-    print("\n🔍 Building dynamic graphs for TASK...")
+    print("\n Building dynamic graphs for TASK...")
     for file_path in task_files:
         result, msg = process_subject(file_path, "Task")
         print(f"  {msg}")
@@ -207,7 +207,7 @@ def main():
             all_results.append(result)
 
     # Process Stress
-    print("\n🔍 Building dynamic graphs for STRESS...")
+    print("\n Building dynamic graphs for STRESS...")
     for file_path in stress_files:
         result, msg = process_subject(file_path, "Stress")
         print(f"  {msg}")
@@ -321,7 +321,7 @@ def main():
         print(f"\nSummary saved to: dynamic_graph_summary.txt")
 
     else:
-        print("\n❌ No results generated.")
+        print("\n No results generated.")
 
 
 if __name__ == "__main__":
