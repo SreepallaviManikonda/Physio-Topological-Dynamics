@@ -4,7 +4,7 @@ import matplotlib
 import sys
 
 # Set backend to save files without popup windows
-matplotlib.use('Agg')
+matplotlib.use('Agg'
 
 def plot_stress_results(csv_path):
     try:
